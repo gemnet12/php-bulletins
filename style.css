@@ -1,0 +1,65 @@
+.non-header {
+    text-align: center;
+}
+.top-info {
+    margin: 30px 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.content img {
+    overflow:auto;
+    object-fit: cover;
+    width: 200px;
+    min-width: 200px;
+    height: 200px;
+    margin-right: 10px;
+}
+
+.panel-content {
+    text-overflow: ellipsis;
+}
+
+.panel-content > div {
+    max-height: 30vh;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.panel-content span {
+    margin-right: 15px;
+}
+
+.mui-form {
+    margin-top: 30px;
+}
+
+.logo {
+    align-self: center;
+    width: 5vh;
+    height: 5vh;
+}
+
+.links {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+}
+.links a:hover {
+    text-decoration: none;
+}
+a img {
+    object-fit: cover;
+}
